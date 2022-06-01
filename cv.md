@@ -23,3 +23,20 @@ function repeatStr (n, s) {
 }
 ```
 ***
+## Education:
+- Belarusian state agricultural academy
+- [Сode Basics. HTML для начинающих.](https://ru.code-basics.com/languages/html)
+- [Сode Basics. CSS для начинающих.](https://ru.code-basics.com/languages/css)
+- [Stepick. Веб-разработка для начинающих: HTML и CSS.](https://stepik.org/course/38218/syllabus)
+- [RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)](https://rs.school/)
+***
+## Work experience:
+- **Design and Engineering works in the field of land reclamation:** 
+  - Surveyor
+  - Project Team leader
+  - Project manager
+- **No work experience in IT**
+***
+## Languages:
+- **English:** A1
+- **Russian:** Native
