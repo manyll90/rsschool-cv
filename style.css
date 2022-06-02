@@ -1,8 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background-color: rgb(206, 227, 132);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    background-color: #2b201e;
 }
-h1 {
-    font-size: 200px;
-    color: rgb(72, 17, 81);
-    text-align: center;
+
+/*------------------------------------------*HEADER START*-----------------------------------------*/
+
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(32, 28, 28); 
+  }
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around; 
+    margin: 0 auto;  
+    padding: 10px 0; 
 }
+
+.nav-menu li,
+.section-left-list {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.menu-list {
+    color: #F2B705;
+}
+
+.menu-list:hover {
+    color: #ffffff;
+}
+
+/*-------------------------------------------*HEADER END*------------------------------------------*/
