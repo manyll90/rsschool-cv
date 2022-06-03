@@ -42,3 +42,54 @@ a {
 }
 
 /*-------------------------------------------*HEADER END*------------------------------------------*/
+
+/*-------------------------------------------*MAIN START*------------------------------------------*/
+
+/*-----main-header-------*/
+
+.main-header {
+    display: flex;  
+}
+
+.left-main-header {
+    width: 30%;
+    background-color: #40211A;
+}
+
+.photo {
+    width: 100%;
+}
+.right-main-header {
+    width: 70%;
+    background-color:#F2B705;
+}
+
+.section-name {
+    display: flex;
+    justify-content:end;
+    width: 100%;
+}
+
+.name {
+    margin: 50px 0;
+    padding: 100px 0;
+    background-color: #40211A;
+    width: 95%;
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+ .name-header {
+    margin: 0 auto;
+    padding: 0 10px 0 60px;
+    color: #F2B705;
+    background: url("assets/icon/css.png") no-repeat;
+}
+/*-----main-header-------*/
+
+/*--------------------------------------------*MAIN END*-------------------------------------------*/
+
+/*-------------------------------------------*MAIN START*------------------------------------------*/
