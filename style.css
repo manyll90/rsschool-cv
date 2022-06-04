@@ -45,7 +45,7 @@ a {
 
 /*-------------------------------------------*MAIN START*------------------------------------------*/
 
-/*-----main-header-------*/
+/*-----main-header start-------*/
 
 .main-header {
     display: flex;  
@@ -88,7 +88,88 @@ h1 {
     color: #F2B705;
     background: url("assets/icon/css.png") no-repeat;
 }
-/*-----main-header-------*/
+/*-----main-header end-------*/
+
+.block {
+    display: flex;
+}
+
+/*-----left-block start-------*/
+
+.left-block {
+    display: flex;
+    justify-content:space-around;     /*Левый блок ставим флекс расположение в колонку и делаем спейс битвин располоджение по вертикали*/
+    flex-direction: column; 
+    width: 30%;
+    background-color: #40211A;
+}
+
+.section-left-header {
+    padding: 0 20px 0 40px;
+    background-color: #40211A;
+    color: #F2B705;
+    border-bottom: 2px solid #F2B705;
+}
+
+.section-left-list {
+    padding: 0 20px 0 40px;
+    text-decoration: none;
+}
+
+.flex-list {
+    display: flex;
+    color: #F2B705;
+}
+.list-icon {
+    margin: 0 10px 10px 0;
+    width: 18px;
+}
+.contacts-list {
+    color: #F2B705;
+}
+
+/*-----left-block end-------*/
+
+/*-----right-block start-------*/
+
+.right-block {
+    width: 70%;
+    background-color:#F2B705;
+    display: flex;
+    justify-content:space-around;   
+    flex-direction: column;
+}
+
+.section-right {
+    width: 80%;
+}
+
+.section-right-header {
+    padding: 0 10px;
+    background-color: #40211A;
+    color: #F2B705;
+}
+
+.section-right-p {
+    padding: 0 10px;
+}
+
+.section-right-list {
+    padding: 0 10px 0 30px;
+    text-decoration: none;
+}
+
+.section-right-list-2 {
+    padding: 0 10px;
+}
+
+.education-list {
+    color: #000000;
+}
+
+
+
+/*-----right-block end-------*/
 
 /*--------------------------------------------*MAIN END*-------------------------------------------*/
 
