@@ -35,6 +35,7 @@ a {
 }
 .menu-list {
     color: #F2B705;
+    transition: 0.3s;
 }
 
 .menu-list:hover {
@@ -126,8 +127,15 @@ h1 {
     width: 18px;
 }
 
-.contacts-list {
+.contacts-list,
+.projects-list{
     color: #F2B705;
+    transition: 0.3s;
+}
+
+.contacts-list:hover,
+.projects-list:hover{
+    opacity: 60%;
 }
 
 .language-list {
@@ -173,6 +181,11 @@ h1 {
 
 .education-list {
     color: #000000;
+    transition: 0.3s;
+}
+
+.education-list:hover{
+    opacity: 60%;
 }
 
 pre {
@@ -193,3 +206,36 @@ code {
 /*--------------------------------------------*MAIN END*-------------------------------------------*/
 
 /*-------------------------------------------*MAIN START*------------------------------------------*/
+
+/*------------------------------------------*FOOTER START*-----------------------------------------*/
+
+footer .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+.rs-logo {
+    width: 100%;
+}
+
+.footer-link {
+    font-size: 16px;
+    color: #F2B705;
+    transition: 0.3s;
+}
+
+.footer-link:hover{
+    color: #ffffff;
+}
+.rs-link {
+    max-width: 60px;
+    transition: 0.3s;
+}
+
+.rs-link:hover{
+    opacity: 60%;
+}
+/*-------------------------------------------*FOOTER END*------------------------------------------*/
+/*------------------------------------------*FOOTER START*-----------------------------------------*/
