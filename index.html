@@ -5,14 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikhail Shatrauka</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,
-    wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicon.svg">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Mikhail Shatrauka</h1>
-    
+    <header class="header">
+        <div class="conteiner">
+            <div class="conteiner-burger">
+                <input class="check-menu" type="checkbox" id="check-menu">
+                <label class="lable-menu" for="check-menu">Menu</label>
+                <div class="burger-line"></div>  
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <nav class="main-menu">
+                    <ul class="nav-menu">
+                        <li><a class="menu-list" href="#about-me">About me</a></li>
+                        <li><a class="menu-list" href="#education">Education</a></li>
+                        <li><a class="menu-list" href="#experience">Experience</a></li>
+                        <li><a class="menu-list" href="#code-example">Code</a></li>
+                        <li><a class="menu-list" href="#contacts">Contacts</a></li>
+                        <li><a class="menu-list" href="#skills">Skills</a></li>
+                        <li><a class="menu-list" href="#languages">Languages</a></li>
+                        <li><a class="menu-list" href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="conteiner">
+            <div class="main-header">
+                <div class="left-main-header">
+                    <img class="photo" src="./assets/img/hero.jpg" alt="My photo">
+                </div>
+                <div class="right-main-header">
+                    <section class="section-name">
+                        <div class="name">
+                            <h1 class="name-header">Mikhail Shatrauka</h1>
+                            <h2 class="name-header">Future Front-End Developer</h2>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="block">
+                <div class="left-block">
+                    <section class="section-left">
+                        <h2 class="section-left-header" id="contacts">My contacts:</h2>
+                        <ul class="section-left-list">
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/mail.png" alt="mail icon">
+                                <a class="contacts-list" href="mailto:garethmanyll@gmail.com"
+                                    target="_blank">E-mail</a></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/tgicon.png" alt="telegram icon">
+                                <a class="contacts-list" href="https://t.me/manyll90"
+                                    target="_blank">Telegram</a></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/github.png" alt="github icon">
+                                <a class="contacts-list" href="https://github.com/manyll90"
+                                    target="_blank">GitHub</a></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/discord.png" alt="discord icon">
+                                <a class="contacts-list" href="https://discord.com/users/707280165931188334"
+                                    target="_blank">Discord</a></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/location.png" alt="location icon">
+                                <a class="contacts-list" href="https://www.google.by/maps/place/Витебск" target="_blank">Vitebsk,Belarus</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section-left">
+                        <h2 class="section-left-header" id="skills">Skills:</h2>
+                        <ul class="section-left-list">
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/html-5.png" alt="html icon"><span>HTML5</span></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/css.png" alt="css icon"><span>CSS3</span></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/java-script.png" alt="java script icon"><span>JavaScript Basics</span></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img//git.png" alt="git icon"><span>Git, GitHub</span></li>
+                            <li class="flex-list"><img class="list-icon" src="./assets/img/visual-studio.png" alt="vs code icon"><span>VS Code</span></li>
+                        </ul>
+                    </section>
+                    <section class="section-left">
+                        <h2 class="section-left-header" id="languages">Languages:</h2>
+                        <ul class="section-left-list">
+                            <li class="language-list">English: A1</li>
+                            <li class="language-list">Russian: Native</li>
+                        </ul>
+                    </section>
+                    <section class="section-left">
+                        <h2 class="section-left-header" id="projects">My projects:</h2>
+                        <ul class="section-left-list">
+                            <li><a class="projects-list" href="https://manyll90.github.io/rsschool-cv/"
+                            target="_blank">My CV</a></li>
+                        </ul>
+                         <!--обернул в список для дальнешего дабавления проектов-->
+                    </section>
+                </div>
+                <div class="right-block">
+                    <section class="section-right">
+                        <h2 class="section-right-header" id="about-me">About me:</h2>
+                        <p class="section-right-p">At the moment I am working as the chief engineer of a project in the
+                            field of land reclamation.
+                            More and more often I am visited by thoughts that I am stagnant and I need development.
+                            All my life I have been attracted and interested in computer technology.
+                            I want to study and develop in the field of frontend development.
+                        <p>
+                    </section>
+                    <section class="section-right">
+                        <h2 class="section-right-header" id="education">Education:</h2>
+                        <ul class="section-right-list">
+                            <li><a class="education-list" href="#" onclick="return false;">Belarusian state agricultural
+                                    academy</a></li>
+                            <!--href="#" onclick="return false;" делает ссылку заглушку которая не перебрасывает наверх страницы-->
+                            <li><a class="education-list" href="https://ru.code-basics.com/languages/html"
+                                    target="_blank">Сode Basics. HTML for beginner.</a></li>
+                            <li><a class="education-list" href="https://ru.code-basics.com/languages/css"
+                                    target="_blank">Сode Basics. CSS for beginners.</a></li>
+                            <li><a class="education-list" href="https://stepik.org/course/38218/syllabus"
+                                    target="_blank">Stepick. Web development for beginner: HTML & CSS.</a></li>
+                            <li><a class="education-list" href="https://rs.school/" target="_blank">RS Schools Course
+                                    «JavaScript/Front-end. Stage 0» (in progress)</a></li>
+                        </ul>
+                    </section>
+                    <section class="section-right">
+                        <h2 class="section-right-header" id="experience">Work experience:</h2>
+                        <ul class="section-right-list">
+                            <li>Design and Engineering works in the field of land reclamation:
+                                <ul class="section-right-list-2">
+                                    <li>2013-2016: Surveyor;</li>
+                                    <li>2016-2018: Project team leader;</li>
+                                    <li>2018-2022: Project manager.</li>
+                                </ul>
+                            </li>
+                            <li>No work experience in IT.</li>
+                        </ul>
+                    </section>
+                    <section class="section-right">
+                        <h2 class="section-right-header" id="code-example">Code example:</h2>
+<pre class="section-right-pre">
+<code>
+function repeatStr (n, s) {
+return s.repeat(n);
+}
+</code>
+</pre>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="conteiner">
+            <a class="footer-link" href="https://github.com/manyll90" target="_blank">Manyll © 2022 </a>
+            <a class="rs-link" href="https://rs.school/js-stage0/" target="_blank"><img class="rs-logo" src="./assets/img/rs-yelow.png" alt="RS School logo"></a>
+        </div>
+    </footer>
 </body>
 </html>
